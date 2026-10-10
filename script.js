@@ -12,7 +12,7 @@
         <input type="radio" id="gender_m" name="gender" value="male" required>
 
         <label for="gender_f">Female</label>
-        <input type="radio" id="gender_f" name="gender" value="female">
+        <input type="radio" id="gender_f" name="gender" value="female" required>
         <br><br>
 
         <label for="cars">Car Brands:</label>
