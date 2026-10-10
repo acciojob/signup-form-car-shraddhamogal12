@@ -1,1 +1,51 @@
-//your code here
+ <form method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <br><br>
+
+        <label for="gender_m">Male</label>
+        <input type="radio" id="gender_m" name="gender" value="male" required>
+
+        <label for="gender_f">Female</label>
+        <input type="radio" id="gender_f" name="gender" value="female">
+        <br><br>
+
+        <label for="cars">Car Brands:</label>
+        <select id="cars" name="cars" required>
+            <option value="">--Please choose an option--</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Mercedes">Mercedes</option>
+        </select>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" placeholder="Age" required>
+        <br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <label for="tel">Phone Number:</label>
+        <input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <br><br>
+
+        <input type="checkbox" id="tos" name="tos" required>
+        <label for="tos">I agree to the TOS</label>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+
